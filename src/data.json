@@ -1,0 +1,1859 @@
+{
+  "rows": [
+    {
+      "field": "'Total'",
+      "key": "Total",
+      "meta": {
+        "is_total": true
+      },
+      "totals": [-0.2286034454775081, 0.7681557615691147, 474320701.88827074],
+      "type": "scripted_metric",
+      "values": [
+        [0.0892123281955719, 0.9949861261098671, 172586695.56518555],
+        [0.11554235965013504, 0.08423846191898304, 63247385.54748535],
+        [0.01436525583267212, 0.011212992904092632, 53458802.31640625],
+        [0.03876516968011856, 0.01877082063954645, 34509944.11328125],
+        [-0.007790795061737299, 0.31117000072775103, 26913322.38406372],
+        [0.1398472785949707, 0.21772508080909356, 21270599.515625],
+        [0.02828136272728443, -0.008790545726526438, 17123654.519836426],
+        [0.061505675315856934, 0.21865212813422405, 6279189.28125],
+        [0.04201796278357506, 0.07343357362566766, 4706461.421875],
+        [null, null, 3723019.25],
+        [0.07078968733549118, 0.1933523009838017, 3674866.59375],
+        [0.027939045801758766, 0.043220561350159725, 3383869.484375],
+        [null, null, 3239436.75],
+        [null, null, 2608505.3828125],
+        [null, null, 2552781.296875],
+        [0.13107852637767792, 0.018607264465191325, 2364214.3125],
+        [0.47363466024398804, 0.5433062371973475, 2173835.625],
+        [0.564523458480835, 0.3889372567081515, 2103217.109375],
+        [-0.0033688247203826904, 0.004731850495242042, 2086217.3125],
+        [0.07396043092012405, 0.26484148483687914, 2025445.703125],
+        [0.03483229875564575, 0.02294846070442703, 1968703.6484375],
+        [0.5918487310409546, 0.6809672554153872, 1955833.29296875],
+        [0.019975651055574417, 0.07184931044695315, 1885393.30078125],
+        [0.1659926325082779, 0.035083438618283905, 1638589.26171875],
+        [null, null, 1378815.2421875],
+        [null, null, 1239554.9765625],
+        [0.010501397773623466, 0.5327342843553987, 1239257.6796875],
+        [0.22573350369930267, 0.007000242618132857, 1182284.8642578125],
+        [null, null, 1167276.6796875],
+        [null, null, 1130003.77734375],
+        [null, null, 1114919.625],
+        [null, null, 1103475.125],
+        [0.05654144659638405, 0.0007478536618666818, 1033662.7026367188],
+        [0.11239545792341232, 0.0050884482797613415, 1033629.28125],
+        [0.014360646717250347, 0.03058723826636933, 976447.2962341309],
+        [0.08259689807891846, 0.0011966463757128085, 953473.8936309814],
+        [0, null, 903294.806640625],
+        [null, null, 871838.890625],
+        [0.16631829738616943, 0.008863356186551267, 846921.408203125],
+        [0.05265595763921738, 0.00864668842652233, 846391.47265625],
+        [0.04793481156229973, 0.013158810274251464, 741557.015625],
+        [0.16991758346557617, 0.009151153884570681, 629873.921875],
+        [0.031415365636348724, 0.0006298213608588989, 624669.603515625],
+        [null, null, 605412.1796875],
+        [0.05147223919630051, 0.0008208239877153008, 599706.61328125],
+        [0.020117726176977158, 0.002136288815026898, 592286.3815917969],
+        [null, null, 587613.3673095703],
+        [null, null, 587613.3673095703],
+        [null, null, 583398.099609375],
+        [0.03774827718734741, 0.007395070808080953, 537656.375],
+        [0.015866536647081375, 0.007819635536398188, 535676],
+        [null, null, 534423.921875],
+        [0.018866820260882378, 0.017930721136946357, 507240.6640625],
+        [0.10602642595767975, 0.02048758528725494, 445520.61212158203],
+        [0.08993560820817947, 0.0009323953716904407, 423478.25390625],
+        [-0.10886765271425247, 0.0002013538148319728, 416143.6572265625],
+        [0.014606302604079247, 0.010025569946581282, 368480.439453125],
+        [-5.181396484375, 0.0004892593365012521, 358562.9341430664],
+        [0.05603378266096115, 0.076631331910067, 350218.98046875],
+        [0.04324894770979881, 0.006010666796654883, 332586.6630859375],
+        [0.028747497126460075, 0.0002795882142749283, 331118.7646484375],
+        [null, null, 325884.32415771484],
+        [null, null, 313737.6953125],
+        [0.041090890765190125, 0.007604638610050651, 299533.8173828125],
+        [0.05079812929034233, 0.00022959916395721503, 276437.12890625],
+        [null, null, 266805.830078125],
+        [0.009268182329833508, 0.0014922362301239818, 264884.3462524414],
+        [0.6254878044128418, 0.45582831766994253, 261983.30859375],
+        [0, null, 242955.81323242188],
+        [null, null, 235809.7099609375],
+        [null, null, 229644.515625],
+        [0.2525528371334076, 0.003261871762789545, 227352.64453125],
+        [0.06182580441236496, 0.00007831007666495067, 218147.40576171875],
+        [-0.20299145579338074, 0.0042402933556612826, 215632.7744140625],
+        [null, null, 212990.1416015625],
+        [null, null, 193925],
+        [null, null, 188348.87475585938],
+        [0.04411764815449715, 0.00018495680085388466, 186964.25390625],
+        [null, null, 186901.83203125],
+        [null, null, 171475.16455078125],
+        [0.018153255805373192, 0.13060841505643012, 162612.14599609375],
+        [null, null, 161040.9921875],
+        [null, null, 154144.72314453125],
+        [0.180536150932312, 0.0005135236000477409, 146761.4296875],
+        [0.1864262968301773, 0.00009408152237755022, 141305.3526611328],
+        [null, null, 139847.6015625],
+        [null, null, 139012.80810546875],
+        [null, null, 136041.353515625],
+        [0.14172790944576263, 0.03810271079810431, 134901.26635742188],
+        [null, null, 130732.14892578125],
+        [null, null, 120209.64404296875],
+        [null, null, 118862.84228515625],
+        [1.3753587007522583, -0.0022740231288985962, 114084.04736328125],
+        [null, null, 109392.232421875],
+        [null, null, 109188.1533203125],
+        [null, null, 107246.96484375],
+        [null, null, 105312.67626953125],
+        [null, null, 104385.47216796875],
+        [null, null, 99543.65869140625],
+        [0, null, 96254.884765625],
+        [null, null, 85960.08984375],
+        [null, null, 83986.14306640625],
+        [0.05414864793419838, 0.012318844104701914, 83964.9765625],
+        [null, null, 83640.4130859375],
+        [null, null, 80811.80224609375],
+        [null, null, 79740.59582519531],
+        [0.40392887592315674, 0.36454564207405316, 79511.294921875],
+        [null, null, 76638.49975585938],
+        [null, null, 72660.7001953125],
+        [0.13256770372390747, 0.0005490519117228343, 69420.4765625],
+        [null, null, 58197.58117675781],
+        [null, null, 57495.918212890625],
+        [-0.0396123081445694, 0.004518483173381721, 57017.49658203125],
+        [null, null, 56457.326171875],
+        [-0.001925049931742251, 0.05464941576057055, 56338.3525390625],
+        [0.34616154432296753, 0.16168188354652707, 56304.978271484375],
+        [0.02422666735947132, 0.029799179056602444, 52837.296875],
+        [0.6049132347106934, 0.022647813013222877, 52812.984375],
+        [0.012703457847237587, 0.00039494224747035005, 48409.76794433594],
+        [0.057738225907087326, 0.005470735879332379, 46633.09423828125],
+        [null, null, 46092.32080078125],
+        [0.025353100150823593, 0.0005800820204238498, 45675.24526977539],
+        [0.05445858836174011, 0.0016707572898165743, 45414.39099121094],
+        [-0.4353799819946289, 0.003051762471855687, 37977.68859863281],
+        [null, null, 37614.151275634766],
+        [0.026381835341453552, 0.00005242264507874393, 33457.017822265625],
+        [0.1055399477481842, 0.00047126185106307727, 32569.781188964844],
+        [0.11137109249830246, 0.0018956281353637813, 32011.062866210938],
+        [null, null, 31782.967407226562],
+        [0.02199380472302437, 0.004128918833352059, 31623.09619140625],
+        [0.11472252011299133, 0.021329218464766347, 31400.94207763672],
+        [0.2967034578323364, 0.08384669983074884, 30982.505859375],
+        [null, null, 27424.064056396484],
+        [null, null, 23576.95947265625],
+        [0.008083727210760117, 0.0042779259213335, 23081.00601196289],
+        [null, null, 23031.362426757812],
+        [0.00789159256964922, 0.00036365820508317244, 18511.820190429688],
+        [null, null, 18037.110107421875],
+        [null, null, 17652.042037963867],
+        [0.038494229316711426, 0.0003078981622218463, 16488.1337890625],
+        [0.009495014324784279, 0.00018821170428705443, 14072.41748046875],
+        [null, null, 13258.820365905762],
+        [null, null, 12701.565185546875],
+        [0, null, 11658.688903808594],
+        [-0.0729513019323349, 0.0007548523555421759, 8734.509078979492],
+        [0, null, 8561.838775634766],
+        [0, null, 7713.4700927734375],
+        [-0.15025511384010315, 0.004849520344096329, 6733.87845993042],
+        [0.15451329946517944, 0.0006754353811406941, 6524.579475402832],
+        [0.24186523258686066, 0.002659242619515252, 6273.382034301758],
+        [null, null, 5696.221145629883],
+        [0.06270406395196915, 0.00009586778848597631, 5224.2783203125],
+        [-0.027058271691203117, 0.0032100453210086003, 4824.422454833984],
+        [-0.004946164321154356, 0.0012688872368204682, 4097.744125366211],
+        [null, null, 3379.560001373291],
+        [0.21005380153656006, 0.0001236289526303087, 3171.3926963806152],
+        [0.07134426385164261, 0.000016184936653205683, 2598.941650390625],
+        [0.1968400925397873, 0.000018676197832175828, 1544.038818359375],
+        [-1.25, 0.0007639588970672293, 1328.1985025405884],
+        [null, null, 777.969970703125],
+        [null, null, 649.2100219726562],
+        [null, null, 551.3400115966797],
+        [null, null, 377.61000061035156],
+        [null, null, 333.0799980163574],
+        [0.012277490459382534, 0.00004708244779531627, 315.8578271865845],
+        [null, null, 314.9499969482422],
+        [null, null, 233.48999786376953],
+        [null, null, 177.32999801635742],
+        [null, null, 176.90999603271484],
+        [null, null, 145.67999267578125],
+        [null, null, 124.10000228881836],
+        [null, null, 80.1500015258789],
+        [null, null, 78.91999816894531],
+        [null, null, 68.05999946594238],
+        [null, null, 60.02999818325043],
+        [null, null, 40.22999954223633],
+        [null, null, 33.58000183105469],
+        [null, null, 20.479999542236328],
+        [null, null, 19.549999237060547],
+        [null, null, 18.450000762939453]
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "field": "supplier_name",
+      "key": "GENERAL MANUFACTURING EQUIPMENT AS",
+      "meta": {
+        "supplier_id": 89
+      },
+      "totals": [0.0892123281955719, 0.9949861261098671, 172586695.56518555],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ALL GOOD ALUMINIUM LTD",
+      "meta": {
+        "supplier_id": 11
+      },
+      "totals": [0.11554235965013504, 0.08423846191898304, 63247385.54748535],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GLOBAL ALUMINUM CO.",
+      "meta": {
+        "supplier_id": 93
+      },
+      "totals": [0.01436525583267212, 0.011212992904092632, 53458802.31640625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "OKTAPACK AB",
+      "meta": {
+        "supplier_id": 170
+      },
+      "totals": [0.03876516968011856, 0.01877082063954645, 34509944.11328125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STEEL SUPPLY INC",
+      "meta": {
+        "supplier_id": 209
+      },
+      "totals": [-0.007790795061737299, 0.31117000072775103, 26913322.38406372],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GAS TANKS INC.",
+      "meta": {
+        "supplier_id": 87
+      },
+      "totals": [0.1398472785949707, 0.21772508080909356, 21270599.515625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TELECOM AB",
+      "meta": {
+        "supplier_id": 231
+      },
+      "totals": [
+        0.02828136272728443, -0.008790545726526438, 17123654.519836426
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "COMPRESSORS GMBH",
+      "meta": {
+        "supplier_id": 265
+      },
+      "totals": [0.061505675315856934, 0.21865212813422405, 6279189.28125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SAFETEY FIRE AS",
+      "meta": {
+        "supplier_id": 189
+      },
+      "totals": [0.04201796278357506, 0.07343357362566766, 4706461.421875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LIFE INSURANCE AS",
+      "meta": {
+        "supplier_id": 130
+      },
+      "totals": [null, null, 3723019.25],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SOLSKJAER REAL ESTATE AS",
+      "meta": {
+        "supplier_id": 204
+      },
+      "totals": [0.07078968733549118, 0.1933523009838017, 3674866.59375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CARBON FIBER BALTICS",
+      "meta": {
+        "supplier_id": 41
+      },
+      "totals": [0.027939045801758766, 0.043220561350159725, 3383869.484375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FORSIKRINGEN AS",
+      "meta": {
+        "supplier_id": 188
+      },
+      "totals": [null, null, 3239436.75],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STORE MASKINER AS",
+      "meta": {
+        "supplier_id": 213
+      },
+      "totals": [null, null, 2608505.3828125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TÃ…RNKRANER AS",
+      "meta": {
+        "supplier_id": 271
+      },
+      "totals": [null, null, 2552781.296875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CF NORDICS",
+      "meta": {
+        "supplier_id": 42
+      },
+      "totals": [0.13107852637767792, 0.018607264465191325, 2364214.3125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HEADQUARTER OFFICE PROVIDER AS",
+      "meta": {
+        "supplier_id": 103
+      },
+      "totals": [0.47363466024398804, 0.5433062371973475, 2173835.625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "THE OFFICE AS",
+      "meta": {
+        "supplier_id": 237
+      },
+      "totals": [0.564523458480835, 0.3889372567081515, 2103217.109375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CLEAN FACILITY AS",
+      "meta": {
+        "supplier_id": 44
+      },
+      "totals": [-0.0033688247203826904, 0.004731850495242042, 2086217.3125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ABBRASIVE EQUIPEMENT AS",
+      "meta": {
+        "supplier_id": 5
+      },
+      "totals": [0.07396043092012405, 0.26484148483687914, 2025445.703125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SPECIFIC CONCRETE AS",
+      "meta": {
+        "supplier_id": 207
+      },
+      "totals": [0.03483229875564575, 0.02294846070442703, 1968703.6484375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TECHNICAL GAS AS",
+      "meta": {
+        "supplier_id": 229
+      },
+      "totals": [0.5918487310409546, 0.6809672554153872, 1955833.29296875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SCISSOR LIFTS AB",
+      "meta": {
+        "supplier_id": 196
+      },
+      "totals": [0.019975651055574417, 0.07184931044695315, 1885393.30078125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LIFT1 AS",
+      "meta": {
+        "supplier_id": 131
+      },
+      "totals": [0.1659926325082779, 0.035083438618283905, 1638589.26171875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STORE MASKINER AB",
+      "meta": {
+        "supplier_id": 212
+      },
+      "totals": [null, null, 1378815.2421875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CRANE SUPPLIER INTL",
+      "meta": {
+        "supplier_id": 58
+      },
+      "totals": [null, null, 1239554.9765625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SUPERVENTILATION AS",
+      "meta": {
+        "supplier_id": 217
+      },
+      "totals": [0.010501397773623466, 0.5327342843553987, 1239257.6796875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FLAMMABLE GAS AS",
+      "meta": {
+        "supplier_id": 82
+      },
+      "totals": [0.22573350369930267, 0.007000242618132857, 1182284.8642578125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MASKINLEVERANDÃ˜REN AS",
+      "meta": {
+        "supplier_id": 268
+      },
+      "totals": [null, null, 1167276.6796875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PACIFIC SCAFFOLDING LTD",
+      "meta": {
+        "supplier_id": 175
+      },
+      "totals": [null, null, 1130003.77734375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MANAGEMENT CONSULTING ESTONIA",
+      "meta": {
+        "supplier_id": 139
+      },
+      "totals": [null, null, 1114919.625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MANAGEMENT CONSULTING GERMANY GMBH",
+      "meta": {
+        "supplier_id": 140
+      },
+      "totals": [null, null, 1103475.125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "THE POST AS",
+      "meta": {
+        "supplier_id": 238
+      },
+      "totals": [
+        0.05654144659638405, 0.0007478536618666818, 1033662.7026367188
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "AUDITOR AS",
+      "meta": {
+        "supplier_id": 21
+      },
+      "totals": [0.11239545792341232, 0.0050884482797613415, 1033629.28125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SWEDISH MACHINERY AB",
+      "meta": {
+        "supplier_id": 219
+      },
+      "totals": [0.014360646717250347, 0.03058723826636933, 976447.2962341309],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FLOWING MACHINERY AS",
+      "meta": {
+        "supplier_id": 83
+      },
+      "totals": [0.08259689807891846, 0.0011966463757128085, 953473.8936309814],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "JOHAN SVERDRUP GAS STATION AB",
+      "meta": {
+        "supplier_id": 121
+      },
+      "totals": [0, null, 903294.806640625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CONTAINERS GMBH",
+      "meta": {
+        "supplier_id": 55
+      },
+      "totals": [null, null, 871838.890625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TOWERCRANE AS",
+      "meta": {
+        "supplier_id": 244
+      },
+      "totals": [0.16631829738616943, 0.008863356186551267, 846921.408203125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FIX MECHANICS AS",
+      "meta": {
+        "supplier_id": 81
+      },
+      "totals": [0.05265595763921738, 0.00864668842652233, 846391.47265625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CANTEENS AND FACILITIES AS",
+      "meta": {
+        "supplier_id": 39
+      },
+      "totals": [0.04793481156229973, 0.013158810274251464, 741557.015625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DRY CLEANER AS",
+      "meta": {
+        "supplier_id": 66
+      },
+      "totals": [0.16991758346557617, 0.009151153884570681, 629873.921875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HARDWARE INC",
+      "meta": {
+        "supplier_id": 110
+      },
+      "totals": [0.031415365636348724, 0.0006298213608588989, 624669.603515625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TOOLS N'STUFF LTD",
+      "meta": {
+        "supplier_id": 242
+      },
+      "totals": [null, null, 605412.1796875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "COMPANY CARS AS",
+      "meta": {
+        "supplier_id": 47
+      },
+      "totals": [0.05147223919630051, 0.0008208239877153008, 599706.61328125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SPECIAL DELIVERY 4U AS",
+      "meta": {
+        "supplier_id": 206
+      },
+      "totals": [0.020117726176977158, 0.002136288815026898, 592286.3815917969],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SUPERMERCADO GMBH",
+      "meta": {
+        "supplier_id": 225
+      },
+      "totals": [null, null, 587613.3673095703],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ÃˆPICERIE S.A",
+      "meta": {
+        "supplier_id": 273
+      },
+      "totals": [null, null, 587613.3673095703],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NAILS AND HAMMERS GMBH",
+      "meta": {
+        "supplier_id": 155
+      },
+      "totals": [null, null, 583398.099609375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STRATEGY CONSULTING AS",
+      "meta": {
+        "supplier_id": 215
+      },
+      "totals": [0.03774827718734741, 0.007395070808080953, 537656.375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MANAGEMENT CONSULTING NORWAY AS",
+      "meta": {
+        "supplier_id": 141
+      },
+      "totals": [0.015866536647081375, 0.007819635536398188, 535676],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TELECOM A/S",
+      "meta": {
+        "supplier_id": 230
+      },
+      "totals": [null, null, 534423.921875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "AS MASKINFIX",
+      "meta": {
+        "supplier_id": 15
+      },
+      "totals": [0.018866820260882378, 0.017930721136946357, 507240.6640625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DOMESTIC AIRLINES AS",
+      "meta": {
+        "supplier_id": 65
+      },
+      "totals": [0.10602642595767975, 0.02048758528725494, 445520.61212158203],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STRATEGY CONSULTING AB",
+      "meta": {
+        "supplier_id": 214
+      },
+      "totals": [0.08993560820817947, 0.0009323953716904407, 423478.25390625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ROCKEFELLER'S GAS AS",
+      "meta": {
+        "supplier_id": 186
+      },
+      "totals": [
+        -0.10886765271425247, 0.0002013538148319728, 416143.6572265625
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PACKAGING TECH AS",
+      "meta": {
+        "supplier_id": 176
+      },
+      "totals": [0.014606302604079247, 0.010025569946581282, 368480.439453125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NORWEGIAN FLYING CO",
+      "meta": {
+        "supplier_id": 161
+      },
+      "totals": [-5.181396484375, 0.0004892593365012521, 358562.9341430664],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ABC ELEKTRO AS",
+      "meta": {
+        "supplier_id": 4
+      },
+      "totals": [0.05603378266096115, 0.076631331910067, 350218.98046875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NORGEWIAN CARDBOARD AS",
+      "meta": {
+        "supplier_id": 158
+      },
+      "totals": [0.04324894770979881, 0.006010666796654883, 332586.6630859375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MACHINEWAGONS AS",
+      "meta": {
+        "supplier_id": 138
+      },
+      "totals": [
+        0.028747497126460075, 0.0002795882142749283, 331118.7646484375
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "INDUSTRIAL PIPING CO",
+      "meta": {
+        "supplier_id": 114
+      },
+      "totals": [null, null, 325884.32415771484],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "INTER CONCRETE LTD",
+      "meta": {
+        "supplier_id": 119
+      },
+      "totals": [null, null, 313737.6953125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "AS MOBILKRAN",
+      "meta": {
+        "supplier_id": 19
+      },
+      "totals": [0.041090890765190125, 0.007604638610050651, 299533.8173828125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "JOHAN SVERDRUP GAS STATION AS",
+      "meta": {
+        "supplier_id": 122
+      },
+      "totals": [0.05079812929034233, 0.00022959916395721503, 276437.12890625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ANOTHER CONSULTANT AB",
+      "meta": {
+        "supplier_id": 13
+      },
+      "totals": [null, null, 266805.830078125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SECUREFLOW PPI LTD",
+      "meta": {
+        "supplier_id": 198
+      },
+      "totals": [
+        0.009268182329833508, 0.0014922362301239818, 264884.3462524414
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "OFFICE PROVIDER STAVANGER AS",
+      "meta": {
+        "supplier_id": 166
+      },
+      "totals": [0.6254878044128418, 0.45582831766994253, 261983.30859375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "EXPRESS FREIGHT AB",
+      "meta": {
+        "supplier_id": 75
+      },
+      "totals": [0, null, 242955.81323242188],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "123 EQUIPMENT GMBH",
+      "meta": {
+        "supplier_id": 2
+      },
+      "totals": [null, null, 235809.7099609375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TELEOPERATÃ–REN AB",
+      "meta": {
+        "supplier_id": 270
+      },
+      "totals": [null, null, 229644.515625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MANAGEMENT CONSULTING SWEDEN AB",
+      "meta": {
+        "supplier_id": 142
+      },
+      "totals": [0.2525528371334076, 0.003261871762789545, 227352.64453125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PHONING AS",
+      "meta": {
+        "supplier_id": 178
+      },
+      "totals": [
+        0.06182580441236496, 0.00007831007666495067, 218147.40576171875
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SVENSKA ELECTRIC DEVICES AB",
+      "meta": {
+        "supplier_id": 218
+      },
+      "totals": [
+        -0.20299145579338074, 0.0042402933556612826, 215632.7744140625
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MICROSOFT IRELAND OPERATIONS LTD.",
+      "meta": {
+        "supplier_id": 151
+      },
+      "totals": [null, null, 212990.1416015625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FILTER INC",
+      "meta": {
+        "supplier_id": 78
+      },
+      "totals": [null, null, 193925],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VERKTÃ˜Y OG OLJER AS",
+      "meta": {
+        "supplier_id": 272
+      },
+      "totals": [null, null, 188348.87475585938],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VIN DIESEL STATION AS",
+      "meta": {
+        "supplier_id": 255
+      },
+      "totals": [0.04411764815449715, 0.00018495680085388466, 186964.25390625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HANDYMAN LTD",
+      "meta": {
+        "supplier_id": 109
+      },
+      "totals": [null, null, 186901.83203125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GOOGLE IRELAND LTD.",
+      "meta": {
+        "supplier_id": 96
+      },
+      "totals": [null, null, 171475.16455078125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SKANDINAVISKA BATTERIER AB",
+      "meta": {
+        "supplier_id": 201
+      },
+      "totals": [0.018153255805373192, 0.13060841505643012, 162612.14599609375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "AMAZON DATA SERVICES IRELAND LTD",
+      "meta": {
+        "supplier_id": 10
+      },
+      "totals": [null, null, 161040.9921875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ONE-CONSULTING LTD",
+      "meta": {
+        "supplier_id": 171
+      },
+      "totals": [null, null, 154144.72314453125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "AUDITOR AB",
+      "meta": {
+        "supplier_id": 20
+      },
+      "totals": [0.180536150932312, 0.0005135236000477409, 146761.4296875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TELECOM AS",
+      "meta": {
+        "supplier_id": 232
+      },
+      "totals": [0.1864262968301773, 0.00009408152237755022, 141305.3526611328],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ONE-INSURANCE LTD",
+      "meta": {
+        "supplier_id": 172
+      },
+      "totals": [null, null, 139847.6015625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VASK MED MER AS",
+      "meta": {
+        "supplier_id": 248
+      },
+      "totals": [null, null, 139012.80810546875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "THE HOTEL AS",
+      "meta": {
+        "supplier_id": 246
+      },
+      "totals": [null, null, 136041.353515625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ONSITE SURVEILLANCE AS",
+      "meta": {
+        "supplier_id": 173
+      },
+      "totals": [0.14172790944576263, 0.03810271079810431, 134901.26635742188],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VASKERIET AS",
+      "meta": {
+        "supplier_id": 249
+      },
+      "totals": [null, null, 130732.14892578125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HARDWARE LTD",
+      "meta": {
+        "supplier_id": 113
+      },
+      "totals": [null, null, 120209.64404296875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TIRESERVICE GLOBAL LTD",
+      "meta": {
+        "supplier_id": 239
+      },
+      "totals": [null, null, 118862.84228515625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CRUISE TRAVELS AB",
+      "meta": {
+        "supplier_id": 60
+      },
+      "totals": [
+        1.3753587007522583, -0.0022740231288985962, 114084.04736328125
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SUB OIL S.A",
+      "meta": {
+        "supplier_id": 216
+      },
+      "totals": [null, null, 109392.232421875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SOV HER AS",
+      "meta": {
+        "supplier_id": 205
+      },
+      "totals": [null, null, 109188.1533203125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TOPPVENTILASJON AS",
+      "meta": {
+        "supplier_id": 243
+      },
+      "totals": [null, null, 107246.96484375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "STERN OFFICE INTL",
+      "meta": {
+        "supplier_id": 210
+      },
+      "totals": [null, null, 105312.67626953125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BATTERIES AS",
+      "meta": {
+        "supplier_id": 22
+      },
+      "totals": [null, null, 104385.47216796875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NORSKE CONTAINERE AS",
+      "meta": {
+        "supplier_id": 159
+      },
+      "totals": [null, null, 99543.65869140625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PREFERRED FACILITY SERVICES AB",
+      "meta": {
+        "supplier_id": 179
+      },
+      "totals": [0, null, 96254.884765625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SWEDISH OILS AB",
+      "meta": {
+        "supplier_id": 221
+      },
+      "totals": [null, null, 85960.08984375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SMÃ˜REMIDLER AS",
+      "meta": {
+        "supplier_id": 269
+      },
+      "totals": [null, null, 83986.14306640625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VENTO AS",
+      "meta": {
+        "supplier_id": 251
+      },
+      "totals": [0.05414864793419838, 0.012318844104701914, 83964.9765625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "123 ELECTRO LTD",
+      "meta": {
+        "supplier_id": 1
+      },
+      "totals": [null, null, 83640.4130859375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TIRESOME TIRES LTD",
+      "meta": {
+        "supplier_id": 240
+      },
+      "totals": [null, null, 80811.80224609375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CLEAN YOU S.P.A",
+      "meta": {
+        "supplier_id": 45
+      },
+      "totals": [null, null, 79740.59582519531],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SANDBLASTING PROTECTION AS",
+      "meta": {
+        "supplier_id": 192
+      },
+      "totals": [0.40392887592315674, 0.36454564207405316, 79511.294921875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FIRE SAFETY PTY",
+      "meta": {
+        "supplier_id": 80
+      },
+      "totals": [null, null, 76638.49975585938],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ALADDIN REFINED OILS INC",
+      "meta": {
+        "supplier_id": 9
+      },
+      "totals": [null, null, 72660.7001953125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GLOBAL DRYCLEANERS LTD",
+      "meta": {
+        "supplier_id": 94
+      },
+      "totals": [0.13256770372390747, 0.0005490519117228343, 69420.4765625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NOISEREDUCE S.A",
+      "meta": {
+        "supplier_id": 164
+      },
+      "totals": [null, null, 58197.58117675781],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TALE & DATA AS",
+      "meta": {
+        "supplier_id": 227
+      },
+      "totals": [null, null, 57495.918212890625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "QUALITY CARDBOARD AS",
+      "meta": {
+        "supplier_id": 184
+      },
+      "totals": [-0.0396123081445694, 0.004518483173381721, 57017.49658203125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VOGNER AS",
+      "meta": {
+        "supplier_id": 257
+      },
+      "totals": [null, null, 56457.326171875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LILLYHAMMER HOTEL AS",
+      "meta": {
+        "supplier_id": 132
+      },
+      "totals": [-0.001925049931742251, 0.05464941576057055, 56338.3525390625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LEASING AS",
+      "meta": {
+        "supplier_id": 128
+      },
+      "totals": [0.34616154432296753, 0.16168188354652707, 56304.978271484375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BILER AS",
+      "meta": {
+        "supplier_id": 26
+      },
+      "totals": [0.02422666735947132, 0.029799179056602444, 52837.296875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NORWEGIAN HOTEL AS",
+      "meta": {
+        "supplier_id": 162
+      },
+      "totals": [0.6049132347106934, 0.022647813013222877, 52812.984375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CEMENTEN AS",
+      "meta": {
+        "supplier_id": 40
+      },
+      "totals": [
+        0.012703457847237587, 0.00039494224747035005, 48409.76794433594
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HEIGHT SECURITY AS",
+      "meta": {
+        "supplier_id": 104
+      },
+      "totals": [0.057738225907087326, 0.005470735879332379, 46633.09423828125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TELEFONI AS",
+      "meta": {
+        "supplier_id": 234
+      },
+      "totals": [null, null, 46092.32080078125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MISC WHOLESALER AS",
+      "meta": {
+        "supplier_id": 154
+      },
+      "totals": [
+        0.025353100150823593, 0.0005800820204238498, 45675.24526977539
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LABELZ AS",
+      "meta": {
+        "supplier_id": 126
+      },
+      "totals": [0.05445858836174011, 0.0016707572898165743, 45414.39099121094],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "IBSEN HOTELS AS",
+      "meta": {
+        "supplier_id": 112
+      },
+      "totals": [-0.4353799819946289, 0.003051762471855687, 37977.68859863281],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HYGENIC FACTORS AB",
+      "meta": {
+        "supplier_id": 107
+      },
+      "totals": [null, null, 37614.151275634766],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "INDUSTRIAL CARDBOARD AS",
+      "meta": {
+        "supplier_id": 111
+      },
+      "totals": [
+        0.026381835341453552, 0.00005242264507874393, 33457.017822265625
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "WORKWEAR AS",
+      "meta": {
+        "supplier_id": 261
+      },
+      "totals": [
+        0.1055399477481842, 0.00047126185106307727, 32569.781188964844
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HOTELLET AS",
+      "meta": {
+        "supplier_id": 106
+      },
+      "totals": [
+        0.11137109249830246, 0.0018956281353637813, 32011.062866210938
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DIZEL INC",
+      "meta": {
+        "supplier_id": 64
+      },
+      "totals": [null, null, 31782.967407226562],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PRINTING HOUSE AS",
+      "meta": {
+        "supplier_id": 181
+      },
+      "totals": [0.02199380472302437, 0.004128918833352059, 31623.09619140625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "NEVERFALL AS",
+      "meta": {
+        "supplier_id": 157
+      },
+      "totals": [0.11472252011299133, 0.021329218464766347, 31400.94207763672],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "REVISOREN AS",
+      "meta": {
+        "supplier_id": 185
+      },
+      "totals": [0.2967034578323364, 0.08384669983074884, 30982.505859375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "WRIGHTS AIR SHUTTLE",
+      "meta": {
+        "supplier_id": 262
+      },
+      "totals": [null, null, 27424.064056396484],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SIKKERHET & KOMPETANSE AS",
+      "meta": {
+        "supplier_id": 200
+      },
+      "totals": [null, null, 23576.95947265625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "CONTAINERS AS",
+      "meta": {
+        "supplier_id": 54
+      },
+      "totals": [0.008083727210760117, 0.0042779259213335, 23081.00601196289],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FUEL AND JUNK AS",
+      "meta": {
+        "supplier_id": 85
+      },
+      "totals": [null, null, 23031.362426757812],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MIDLANDS TRUCKING SERVICES AS",
+      "meta": {
+        "supplier_id": 152
+      },
+      "totals": [
+        0.00789159256964922, 0.00036365820508317244, 18511.820190429688
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HABERKORN GMBH",
+      "meta": {
+        "supplier_id": 98
+      },
+      "totals": [null, null, 18037.110107421875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MILKYWAY GMBH",
+      "meta": {
+        "supplier_id": 156
+      },
+      "totals": [null, null, 17652.042037963867],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "EQUIP AND PROTECT AS",
+      "meta": {
+        "supplier_id": 72
+      },
+      "totals": [0.038494229316711426, 0.0003078981622218463, 16488.1337890625],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DEKKSERVICE NORGE AS",
+      "meta": {
+        "supplier_id": 62
+      },
+      "totals": [
+        0.009495014324784279, 0.00018821170428705443, 14072.41748046875
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GATEWAY COMPUTER CO.; LTD.",
+      "meta": {
+        "supplier_id": 88
+      },
+      "totals": [null, null, 13258.820365905762],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VERNEUTSTYR AS",
+      "meta": {
+        "supplier_id": 253
+      },
+      "totals": [null, null, 12701.565185546875],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SCANDIBATTERIES AB",
+      "meta": {
+        "supplier_id": 194
+      },
+      "totals": [0, null, 11658.688903808594],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TRANSPORTÃ˜REN AS",
+      "meta": {
+        "supplier_id": 245
+      },
+      "totals": [-0.0729513019323349, 0.0007548523555421759, 8734.509078979492],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SWEHOTELS AB",
+      "meta": {
+        "supplier_id": 223
+      },
+      "totals": [0, null, 8561.838775634766],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SAG AS",
+      "meta": {
+        "supplier_id": 190
+      },
+      "totals": [0, null, 7713.4700927734375],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "HEYERDAHL TRAVELS AS",
+      "meta": {
+        "supplier_id": 105
+      },
+      "totals": [-0.15025511384010315, 0.004849520344096329, 6733.87845993042],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LOGISTIKKPARTNEREN AS",
+      "meta": {
+        "supplier_id": 134
+      },
+      "totals": [0.15451329946517944, 0.0006754353811406941, 6524.579475402832],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GOOD TRAVELS AS",
+      "meta": {
+        "supplier_id": 95
+      },
+      "totals": [0.24186523258686066, 0.002659242619515252, 6273.382034301758],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BREAD AND BUTTER INC",
+      "meta": {
+        "supplier_id": 33
+      },
+      "totals": [null, null, 5696.221145629883],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BUSINESS PAPER AS",
+      "meta": {
+        "supplier_id": 36
+      },
+      "totals": [0.06270406395196915, 0.00009586778848597631, 5224.2783203125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FREQUENT BATTERIES AS",
+      "meta": {
+        "supplier_id": 86
+      },
+      "totals": [
+        -0.027058271691203117, 0.0032100453210086003, 4824.422454833984
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DUNLIN GASOLINE AB",
+      "meta": {
+        "supplier_id": 68
+      },
+      "totals": [
+        -0.004946164321154356, 0.0012688872368204682, 4097.744125366211
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "OFFICE REPO INC",
+      "meta": {
+        "supplier_id": 169
+      },
+      "totals": [null, null, 3379.560001373291],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "FREIGHT PARTNER 1 AS",
+      "meta": {
+        "supplier_id": 84
+      },
+      "totals": [
+        0.21005380153656006, 0.0001236289526303087, 3171.3926963806152
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "TABLOID PAPER AS",
+      "meta": {
+        "supplier_id": 226
+      },
+      "totals": [
+        0.07134426385164261, 0.000016184936653205683, 2598.941650390625
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BUSINESS TIMES SWEDEN AB",
+      "meta": {
+        "supplier_id": 37
+      },
+      "totals": [
+        0.1968400925397873, 0.000018676197832175828, 1544.038818359375
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SPEEDY DELIVERY AB",
+      "meta": {
+        "supplier_id": 208
+      },
+      "totals": [-1.25, 0.0007639588970672293, 1328.1985025405884],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "EL?PS ELEKTRON?K SANAY? VE T?C.LTD.",
+      "meta": {
+        "supplier_id": 70
+      },
+      "totals": [null, null, 777.969970703125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MARK IT.CZ, S.R.O.",
+      "meta": {
+        "supplier_id": 144
+      },
+      "totals": [null, null, 649.2100219726562],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "COMPLETE BOOK AND MEDIA SUPPLY INC",
+      "meta": {
+        "supplier_id": 50
+      },
+      "totals": [null, null, 551.3400115966797],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "LIMITED COMPANY NAKAGUCHI BUSINESS",
+      "meta": {
+        "supplier_id": 133
+      },
+      "totals": [null, null, 377.61000061035156],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BINDERS DEUTSCHLAND GMBH & CO.KG",
+      "meta": {
+        "supplier_id": 30
+      },
+      "totals": [null, null, 333.0799980163574],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "SWEDISH PETRO AB",
+      "meta": {
+        "supplier_id": 222
+      },
+      "totals": [
+        0.012277490459382534, 0.00004708244779531627, 315.8578271865845
+      ],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "YAMANAKA CHEMICAL CORPORATION",
+      "meta": {
+        "supplier_id": 263
+      },
+      "totals": [null, null, 314.9499969482422],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BEATLE GMBH",
+      "meta": {
+        "supplier_id": 23
+      },
+      "totals": [null, null, 233.48999786376953],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "INMAC WSTORE SAS",
+      "meta": {
+        "supplier_id": 117
+      },
+      "totals": [null, null, 177.32999801635742],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ECS EUROCOMPUTER SYSTEMS D O O",
+      "meta": {
+        "supplier_id": 69
+      },
+      "totals": [null, null, 176.90999603271484],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PLAISIO COMPUTERS S.A.",
+      "meta": {
+        "supplier_id": 180
+      },
+      "totals": [null, null, 145.67999267578125],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "PUNCHOUT OFFICEMAX INCORPORATED",
+      "meta": {
+        "supplier_id": 183
+      },
+      "totals": [null, null, 124.10000228881836],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MERCATEO DEUTSCHLAND AG",
+      "meta": {
+        "supplier_id": 150
+      },
+      "totals": [null, null, 80.1500015258789],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DESTEK B?LG?SAYAR VE ?LET???M H?Z.T",
+      "meta": {
+        "supplier_id": 63
+      },
+      "totals": [null, null, 78.91999816894531],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "GRAND & TOY",
+      "meta": {
+        "supplier_id": 97
+      },
+      "totals": [null, null, 68.05999946594238],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "DU PAPIER DISTRIBUIDORA PAPELERA",
+      "meta": {
+        "supplier_id": 67
+      },
+      "totals": [null, null, 60.02999818325043],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "MARKIT BALTIJA UAB",
+      "meta": {
+        "supplier_id": 146
+      },
+      "totals": [null, null, 40.22999954223633],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "BINDERS (SHANGHAI) CO.; LTD. BEIJIN",
+      "meta": {
+        "supplier_id": 27
+      },
+      "totals": [null, null, 33.58000183105469],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ESCID S L",
+      "meta": {
+        "supplier_id": 74
+      },
+      "totals": [null, null, 20.479999542236328],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "VISUAL SOFT",
+      "meta": {
+        "supplier_id": 256
+      },
+      "totals": [null, null, 19.549999237060547],
+      "type": "text"
+    },
+    {
+      "field": "supplier_name",
+      "key": "ASKUL CORPORATION.",
+      "meta": {
+        "supplier_id": 17
+      },
+      "totals": [null, null, 18.450000762939453],
+      "type": "text"
+    }
+  ]
+}
