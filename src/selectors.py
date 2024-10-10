@@ -4,7 +4,8 @@ from .records import Supplier
 
 
 def get_suppliers() -> list[Supplier]:
-    with open("/home/bendike/ignite_matrix/backend/data.json", "r") as file:
+    # NOTE: file relative to where you start uvicorn
+    with open("src/data.json") as file:
         data = json.load(file)
         colums = data["columns"]
 
