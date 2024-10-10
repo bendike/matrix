@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from .selectors import get_suppliers
+from .selectors import get_suppliers, get_suppliers_from_transactions
 
 app = FastAPI()
 
@@ -25,3 +25,7 @@ def suppliers():
     suppliers = get_suppliers()
     return {"suppliers": suppliers}
 
+@app.get("/supplier_transactions")
+def suppliers_from_transactions(year: int | None = None):
+    suppliers = get_suppliers_from_transactions(year)
+    return {"suppliers": suppliers}

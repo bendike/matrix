@@ -1,19 +1,23 @@
-import { useRef, useEffect, useCallback, useMemo } from "react";
-import { areAllNumbers } from "./utils";
+import React, { useRef, useEffect, useCallback, useMemo } from "react";
+import { isNumber } from "./utils";
+import { Supplier } from "./api";
 
 type Props = {
-    data: (number | null)[][];
+    suppliers: Supplier[];
 };
 
-const IgnitePlot = ({ data }: Props) => {
+const IgnitePlot = ({ suppliers }: Props) => {
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
     // Get the biggest spend value to get a feeling for how big
     // the circles should be drawn
     const maxSpend = useMemo(
         () =>
-            data.reduce((prev, current) => Math.max(prev, current[2] ?? 0), 0),
-        [data],
+            suppliers.reduce(
+                (prev, current) => Math.max(prev, current.spend ?? 0),
+                0,
+            ),
+        [suppliers],
     );
 
     // Transform x value to logarithmic scale
@@ -29,7 +33,7 @@ const IgnitePlot = ({ data }: Props) => {
             ctx: CanvasRenderingContext2D,
             width: number,
             height: number,
-            data: (number | null)[][],
+            suppliers: Supplier[],
         ) => {
             // Draw y-axis
             ctx.beginPath();
@@ -42,13 +46,13 @@ const IgnitePlot = ({ data }: Props) => {
             const values = [
                 0.1, 0.2, 0.4, 0.6, 0.8, 1, 2, 4, 6, 8, 10, 20, 40, 60, 80, 100,
             ];
-            values.forEach((v) => {
+            values.forEach((v, idx) => {
                 const x = logX(v, width);
                 // Draw vertical lines
                 ctx.beginPath();
                 ctx.moveTo(x, 0);
                 ctx.lineTo(x, height);
-                ctx.strokeStyle = "grey";
+                ctx.strokeStyle = idx === 0 ? "#000000" : "#aaaaaa";
                 ctx.stroke();
 
                 // Draw x-axis labels
@@ -62,7 +66,7 @@ const IgnitePlot = ({ data }: Props) => {
                 ctx.beginPath();
                 ctx.moveTo(0, y);
                 ctx.lineTo(width, y);
-                ctx.strokeStyle = "grey";
+                ctx.strokeStyle = i === 0 ? "#000000" : "#aaaaaa";
                 ctx.stroke();
 
                 if (i !== -100) {
@@ -71,16 +75,16 @@ const IgnitePlot = ({ data }: Props) => {
                 }
             }
 
-            data.forEach((d) => {
+            suppliers.forEach((supplier) => {
+                const { share_of_wallet, ebit_margin, spend } = supplier;
                 // Ignore data rows where some fields are null
-                if (!areAllNumbers(d)) {
+                if (
+                    !isNumber(spend) ||
+                    !isNumber(share_of_wallet) ||
+                    !isNumber(ebit_margin)
+                ) {
                     return;
                 }
-
-                const ebit_margin = d[0];
-                const share_of_wallet = d[1];
-                const spend = d[2];
-                console.log(share_of_wallet * 100, ebit_margin * 100);
 
                 // Some wierd math to make the smallest dots bigger
                 const radius =
@@ -106,10 +110,10 @@ const IgnitePlot = ({ data }: Props) => {
             const context = canvas.getContext("2d");
             if (context) {
                 // Our draw function comes here
-                draw(context, canvas.width, canvas.height, data);
+                draw(context, canvas.width, canvas.height, suppliers);
             }
         }
-    }, [draw, data]);
+    }, [draw, suppliers]);
 
     return <canvas width={1200} height={600} ref={canvasRef} />;
 };

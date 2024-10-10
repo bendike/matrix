@@ -3,5 +3,17 @@ import pydantic
 
 class Supplier(pydantic.BaseModel):
     name: str
-    id: int
-    totals: tuple[float | None, float | None, float | None]
+    ebit_margin: float | None
+    revenue: float | None
+    spend: float = 0
+
+    def add_spend(self, spend: float | None) -> None:
+        if spend:
+            self.spend += spend
+
+    @pydantic.computed_field
+    @property
+    def share_of_wallet(self) -> float | None:
+        if not self.revenue:
+            return None
+        return self.spend / self.revenue
