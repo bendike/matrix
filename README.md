@@ -5,7 +5,7 @@ To run the backend:
 
 ```sh
 poetry install
-poetry run uvicorn src.main:app
+poetry run uvicorn backend.main:app
 ```
 
 ### Frontend

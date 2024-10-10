@@ -5,7 +5,7 @@ from .records import Supplier
 
 def get_suppliers() -> list[Supplier]:
     # NOTE: file relative to where you start uvicorn
-    with open("src/data.json") as file:
+    with open("backend/data.json") as file:
         data = json.load(file)
         colums = data["columns"]
 

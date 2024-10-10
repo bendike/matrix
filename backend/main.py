@@ -19,6 +19,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/suppliers")
 def suppliers():
     suppliers = get_suppliers()
